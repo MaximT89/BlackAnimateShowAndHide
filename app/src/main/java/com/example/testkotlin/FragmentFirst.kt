@@ -22,7 +22,9 @@ class FragmentFirst : Fragment() {
 
         val btn1 : Button = view.findViewById(R.id.btn_1)
         btn1.setOnClickListener {
+
             (context as MainActivity).changeFragment(FragmentSecond.newInstance())
+
         }
     }
 
